@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+	display: inline-block;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #1CD7F3;
+}
+
+li a:active {
+    color: white;
+    background-color: #1CD7F3;
+}
+
+
+
+.header {
+	 padding: 50px;
+    text-align: center;
+	background: url(http://www.mercy-pharmacy.com/assets/images/1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+.header h2 {
+	font-size:2.0em;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row h1{
+	float:right;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 200px;
+	font-family: 'Roboto', sans-serif;
+	border:solid black 2px;
+}
+.column1{
+	background: url(https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/15400344_1188592357873873_3967860346987401381_n.jpg?oh=796a6bd7e273bcf6b1f5a686d9ecb00d&oe=5AA55165);
+	background-repeat: no-repeat;
+	background-size:cover;
+	align-items:flex-end;
+}
+.column2{
+	background:url(https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/15822594_1212432025489906_7586618084188126132_n.jpg?oh=d38e35539b9b21f7b72a514c00703270&oe=5A8BF96C);
+    background-repeat: no-repeat;
+	background-size:cover;
+	align-items:flex-end;
+}
+.column3{ 
+    background: url(https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/15895064_1212431968823245_618701037720576042_n.jpg?oh=32dc0551dde9345988188d61c78ab1b5&oe=5A934270);
+	background-repeat: no-repeat;
+	background-size:cover;
+	align-items:flex-end;
+}
+.column4{ 
+    background: url(https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/13339432_1038668516199592_5734275398627728946_n.jpg?oh=d56c3af6175f7bffd763f2aa69c42ed2&oe=5A95BC9C);
+	background-repeat: no-repeat;
+	background-size:cover;
+	align-items:flex-end;
+}
+.column5{
+	background: url(https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/13406872_1038668482866262_5976340000615502754_n.jpg?oh=c022246bbbb1a2919b192a4166efb5b9&oe=5A976E4B);
+	background-repeat: no-repeat;
+	background-size:cover;
+	align-items:flex-end;
+}
+.column6{
+	background: url(https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/12974280_1006550692744708_2078125667491538630_n.jpg?oh=893ef34aeb89410775e52504bcd5b177&oe=5AD12E10);
+	background-repeat: no-repeat;
+	background-size:cover;
+	align-items:flex-end;
+}
+.column7{
+	background: url(https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/13015367_1006550686078042_1425943150087779189_n.jpg?oh=b5ba42f45e2a89af16af4067ee618e47&oe=5A947D84);
+	background-repeat: no-repeat;
+	background-size:cover;
+	align-items:flex-end;
+} 
+.column8{
+	background: url(https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/11953211_890960324303746_4368431492096777920_n.jpg?oh=c5ecd33f539c19c2216d9ca55176955d&oe=5A9DC377);
+	background-repeat: no-repeat;
+	background-size:cover;
+	align-items:flex-end;
+}
+.colum9{
+	background: url(https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/11215833_839906422742470_2259801870050908175_n.jpg?oh=ac107158f978ac7d69667782a1e41944&oe=5AA070EA);
+	background-repeat: no-repeat;
+	background-size:cover;
+	align-items:flex-end;
+}
+.colum10{
+	background: url(https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/11014920_839904762742636_8867837859857612806_n.jpg?oh=ecd86c51d17813032652699d33e92730&oe=5AA60DED);
+	background-repeat: no-repeat;
+	background-size:cover;
+	align-items:flex-end;
+}
+.colum11{
+	background: url(https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/11036807_833316690068110_2713490982397921241_n.jpg?oh=58ad36802334952da2995c0a0e804531&oe=5A98119D);
+	background-repeat: no-repeat;
+	background-size:cover;
+	align-items:flex-end;
+}
+.colum12{
+	background: url(https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/11960040_890961357636976_5781519534406282881_n.jpg?oh=92ac444dc030f361968964764221b326&oe=5A8A91E8);
+	background-repeat: no-repeat;
+	background-size:cover;
+	align-items:flex-end;
+}
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+.fa {
+	padding: 20px;
+	margin:10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+	float:right;
+	border-radius:10%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+}
+.fa-yelp {
+    background: #af0606;
+    color: white;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+	width: 120px;
+    bottom: 100%;
+    left: 50%; 
+    margin-left: -60px; 
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+	position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}

@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+	display:inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #1CD7F3;
+}
+
+li a:active {
+    color: white;
+    background-color: #1CD7F3;
+}
+
+.header {
+    background: url(http://www.mercy-pharmacy.com/assets/images/1.jpg);
+	background-repeat:no-repeat;
+    background-size:cover;
+    padding: 50px;
+    text-align: center;
+}
+.header h2 {
+	font-size:2.0em;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 600px;
+	font-family: 'Roboto', sans-serif;
+	border: 1px solid black;
+}
+  
+.info{
+	display: flex;
+	align-items:flex-end;
+	background: url(https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/69208_522078121191970_658157799_n.jpg?oh=a37a99b6e5aeab6c670f85639d473092&oe=5AAE90AB);
+	background-repeat:no-repeat;
+    background-size:cover;
+	box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.2);
+	color:white;	
+	width:100%;
+	text-align:center;
+}
+.giftshop{
+	background: url(https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/15826865_1212431928823249_3877165674452021726_n.jpg?oh=007a96868b2256bd90c96d1184cd4d35&oe=5AA5EA8E);
+	background-repeat:no-repeat;
+    background-size:cover;
+	text-decoration:none;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	color:white;
+}
+.staff{
+	background:url(https://scontent.fslc2-1.fna.fbcdn.net/v/t1.0-9/944060_948418511891260_5385801446556644722_n.jpg?oh=0e9e9c7d0d32880afc20eba61bb34e39&oe=5AA3B381);
+	background-repeat:no-repeat;
+    background-size:cover;
+	background-position:center;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	color:white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+.fa {
+	padding: 20px;
+	margin:10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+	border-radius:10%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+}
+.fa-yelp {
+    background: #af0606;
+    color: white;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+	width: 120px;
+    bottom: 100%;
+    left: 50%; 
+    margin-left: -60px; 
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+	position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+		height:450px;
+    }
+	
+}
